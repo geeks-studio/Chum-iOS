@@ -1,0 +1,194 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.4)
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - BFPaperButton (2.0.18):
+    - UIColor+BFPaperColors
+  - CCBottomRefreshControl (0.5.1):
+    - Masonry (~> 0.6.2)
+  - CircleProgressBar (0.22)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Colours (5.12.0):
+    - Colours/ObjC (= 5.12.0)
+  - Colours/ObjC (5.12.0)
+  - Crashlytics (3.5.0):
+    - Fabric (~> 1.6.0)
+  - DateTools (1.7.0)
+  - DGActivityIndicatorView (2.0)
+  - EFCircularSlider (0.2.0)
+  - EZSwipeController (0.4)
+  - Fabric (1.6.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleMaps (1.11.1)
+  - INTULocationManager (4.1.1)
+  - JDStatusBarNotification (1.5.3)
+  - JSBadgeView (1.4.1)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - KMPlaceholderTextView (1.1.1)
+  - LGPlusButtonsView (1.1.1)
+  - LMGeocoder (1.0.4)
+  - LoremIpsum (1.0.0)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MGSwipeTableCell (1.5.4)
+  - MXParallaxHeader (0.4.3)
+  - NYTPhotoViewer (1.1.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 1.1.0)
+    - NYTPhotoViewer/Core (= 1.1.0)
+  - NYTPhotoViewer/AnimatedGifSupport (1.1.0):
+    - FLAnimatedImage (~> 1.0.8)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (1.1.0)
+  - Obfuscator (2.0.0)
+  - pop (1.0.8)
+  - PureLayout (3.0.1)
+  - RNCryptor (4.0.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - Siren (0.8.0)
+  - SlackTextViewController (1.8)
+  - SLPagingView (0.0.5)
+  - SocketRocket (0.4.2)
+  - SVPullToRefresh (0.4.1)
+  - TLTagsControl (1.0.0)
+  - TLYShyNavBar (1.0.0)
+  - TOCropViewController (1.2.6)
+  - TTTAttributedLabel (1.13.4)
+  - UIColor+BFPaperColors (1.7.2)
+  - VBFPopFlatButton (0.0.6):
+    - pop
+  - VWWPermissionKit (1.3.0)
+  - XLPagerTabStrip (3.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFNetworking
+  - BFPaperButton
+  - CCBottomRefreshControl
+  - CircleProgressBar
+  - CocoaLumberjack
+  - Colours
+  - Crashlytics
+  - DateTools
+  - DGActivityIndicatorView
+  - EFCircularSlider
+  - EZSwipeController
+  - Fabric
+  - GoogleMaps
+  - INTULocationManager
+  - JDStatusBarNotification
+  - JSBadgeView
+  - JSQMessagesViewController
+  - KMPlaceholderTextView
+  - LGPlusButtonsView (~> 1.1.0)
+  - LMGeocoder
+  - LoremIpsum
+  - MBProgressHUD
+  - MGSwipeTableCell
+  - MXParallaxHeader
+  - NYTPhotoViewer (~> 1.1.0)
+  - Obfuscator
+  - PureLayout
+  - RNCryptor (~> 4.0.0-beta)
+  - SDWebImage
+  - Siren
+  - SlackTextViewController
+  - SLPagingView
+  - SocketRocket
+  - SVPullToRefresh (from `https://github.com/gabro/SVPullToRefresh.git`, branch `top-infinitescrolling`)
+  - TLTagsControl (from `https://github.com/ali312/TLTagsControl`)
+  - TLYShyNavBar
+  - TOCropViewController
+  - TTTAttributedLabel
+  - VBFPopFlatButton
+  - VWWPermissionKit
+  - XLPagerTabStrip (~> 3.0)
+
+EXTERNAL SOURCES:
+  SVPullToRefresh:
+    :branch: top-infinitescrolling
+    :git: https://github.com/gabro/SVPullToRefresh.git
+  TLTagsControl:
+    :git: https://github.com/ali312/TLTagsControl
+
+CHECKOUT OPTIONS:
+  SVPullToRefresh:
+    :commit: 3f88bf7a51b37fc3f19f180a67c729dcec873df2
+    :git: https://github.com/gabro/SVPullToRefresh.git
+  TLTagsControl:
+    :commit: 1043bb4eab751f4b9a73eef5b445efd2f57bad35
+    :git: https://github.com/ali312/TLTagsControl
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 860466cb4a66854e6acb590071ecee404b48f49d
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BFPaperButton: 16b3ec9c2964d24f89f623a4113321d3f003ed60
+  CCBottomRefreshControl: 57a596348855260f627ffc2b311328ed15b94877
+  CircleProgressBar: bb6418f9a5121f64c5784b9a72e34f353727266c
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Colours: 4019e8eeb69d8840832eba1b3254abdbab4eec49
+  Crashlytics: fabfd45d0e8b8dc936c682b97e302b9a49a1c827
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DGActivityIndicatorView: 52875b025a6ccf6a431a905285c12e2bb95eb559
+  EFCircularSlider: 3af1dd6f86eb3eeeeaab0345ef3d6d1c2fc93d17
+  EZSwipeController: 49aa0f869e66049ac433483120f458434272ee32
+  Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
+  INTULocationManager: 83c7373048d583cda57e25eefb9bb8a3675acf16
+  JDStatusBarNotification: 29413865af11c862c17180610b0f46a21118b412
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KMPlaceholderTextView: 686edec818f5727728eaf8c2e9e70177692d3d53
+  LGPlusButtonsView: 57878cd3d461d0ee2042f5b7b25d1c017e22a084
+  LMGeocoder: a0f635f948b0ca420d8d338e54886744cdcb215d
+  LoremIpsum: 9029c55d36501b2ee0b05cc9ecda11d3a0479160
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MGSwipeTableCell: cffd3378af74eb991911f132c5f3911261fda860
+  MXParallaxHeader: 96d9e7c392a26b29b97ddc34bff904a9c0baef27
+  NYTPhotoViewer: e80e8767f3780d2df37c6f72cbab15d6c7232911
+  Obfuscator: 9573f662415f048c1de91f99aa10626dd50e5007
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  RNCryptor: 59d6483908115af5c12b884db23392024e52a5fe
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Siren: e37819c0ef6130098e31ba01cd66857e574bd01a
+  SlackTextViewController: 0300adee2931fdbe72488990336f0937dbed048e
+  SLPagingView: ba9bb6102cb318ce56f23d0a7e49a46ddcdad7e3
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TLTagsControl: 34ab7d25f282aa2b8b42e73cc71b96ffe9fa7a15
+  TLYShyNavBar: d313a1c50c58cb7af744829120eaa33ca8a998ce
+  TOCropViewController: 030e38f7c696d8eec4320a5baa8250b49c8f065f
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  UIColor+BFPaperColors: 03101fe6c10ed00c6daae7c26553f1de41500853
+  VBFPopFlatButton: 782344da63f104c279a857d806e065117a7e1196
+  VWWPermissionKit: 102e84bbd358cf909f46eb2120d1c698d0e0c3af
+  XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
+
+COCOAPODS: 0.39.0

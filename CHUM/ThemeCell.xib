@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="98" id="UiZ-1Q-Ej1" customClass="ThemeCell" customModule="CHUM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UiZ-1Q-Ej1" id="mth-2x-asX">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NHG-Yj-oJP">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="97.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcI-b1-aN1">
+                        <rect key="frame" x="0.0" y="0.5" width="372" height="97.5"/>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxS-Fs-YjF">
+                        <rect key="frame" x="32" y="36" width="306" height="25.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZH-Df-zuH">
+                        <rect key="frame" x="364" y="38" width="0.0" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="xG6-Jl-JIo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="themeUser" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-Qm-giq">
+                        <rect key="frame" x="355" y="48" width="1" height="1"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="themeStar" translatesAutoresizingMaskIntoConstraints="NO" id="SeI-iT-Qgj">
+                        <rect key="frame" x="346" y="48" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="SeI-iT-Qgj" secondAttribute="height" multiplier="1:1" id="Ns7-gy-JCp"/>
+                            <constraint firstAttribute="height" constant="1" id="ba7-Ug-ddN"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NHG-Yj-oJP" firstAttribute="top" secondItem="mth-2x-asX" secondAttribute="topMargin" constant="-8" id="0LV-yB-jHI"/>
+                    <constraint firstItem="TcI-b1-aN1" firstAttribute="top" secondItem="mth-2x-asX" secondAttribute="topMargin" constant="-8" id="0XC-4V-o33"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TcI-b1-aN1" secondAttribute="bottom" constant="-8" id="7G1-jR-AGB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NHG-Yj-oJP" secondAttribute="trailing" constant="-8" id="A8r-5X-rvL"/>
+                    <constraint firstItem="TcI-b1-aN1" firstAttribute="leading" secondItem="mth-2x-asX" secondAttribute="leadingMargin" constant="-8" id="CtW-36-ws0"/>
+                    <constraint firstItem="0ZH-Df-zuH" firstAttribute="leading" secondItem="fGI-Qm-giq" secondAttribute="trailing" constant="8" id="Gxc-5s-u6C"/>
+                    <constraint firstItem="fGI-Qm-giq" firstAttribute="leading" secondItem="SeI-iT-Qgj" secondAttribute="trailing" constant="8" id="Kxw-SN-VGL"/>
+                    <constraint firstItem="SeI-iT-Qgj" firstAttribute="centerY" secondItem="ZxS-Fs-YjF" secondAttribute="centerY" id="MaH-Qm-YFu"/>
+                    <constraint firstItem="fGI-Qm-giq" firstAttribute="centerY" secondItem="ZxS-Fs-YjF" secondAttribute="centerY" id="SD0-k0-5Gd"/>
+                    <constraint firstItem="0ZH-Df-zuH" firstAttribute="trailing" secondItem="mth-2x-asX" secondAttribute="trailingMargin" id="WBf-G8-zoq"/>
+                    <constraint firstItem="fGI-Qm-giq" firstAttribute="height" secondItem="SeI-iT-Qgj" secondAttribute="height" id="WKM-7D-nTU"/>
+                    <constraint firstItem="fGI-Qm-giq" firstAttribute="width" secondItem="SeI-iT-Qgj" secondAttribute="width" id="YMj-Fe-muc"/>
+                    <constraint firstItem="SeI-iT-Qgj" firstAttribute="leading" secondItem="ZxS-Fs-YjF" secondAttribute="trailing" constant="8" id="iNc-Gx-pTk"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="NHG-Yj-oJP" secondAttribute="bottom" constant="-8" id="j4g-cF-NNi"/>
+                    <constraint firstItem="ZxS-Fs-YjF" firstAttribute="centerY" secondItem="mth-2x-asX" secondAttribute="centerY" id="mrS-an-2yV"/>
+                    <constraint firstItem="0ZH-Df-zuH" firstAttribute="centerY" secondItem="ZxS-Fs-YjF" secondAttribute="centerY" id="rEY-Js-n7A"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TcI-b1-aN1" secondAttribute="trailing" constant="-8" id="uFx-xZ-IGV"/>
+                    <constraint firstItem="NHG-Yj-oJP" firstAttribute="leading" secondItem="mth-2x-asX" secondAttribute="leadingMargin" constant="-8" id="wVw-mm-XTC"/>
+                    <constraint firstItem="ZxS-Fs-YjF" firstAttribute="leading" secondItem="mth-2x-asX" secondAttribute="leadingMargin" constant="24" id="y7N-z1-J27"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="coverColorView" destination="TcI-b1-aN1" id="x3r-mO-NVi"/>
+                <outlet property="isFavoriteImageView" destination="SeI-iT-Qgj" id="89Y-fx-Bgg"/>
+                <outlet property="themeImageView" destination="NHG-Yj-oJP" id="P9M-a4-sgv"/>
+                <outlet property="themeNameLabel" destination="ZxS-Fs-YjF" id="sVn-ie-rof"/>
+                <outlet property="userCountLabel" destination="0ZH-Df-zuH" id="Sh1-Tw-CEC"/>
+                <outlet property="userImageView" destination="fGI-Qm-giq" id="DHF-AW-ZCR"/>
+            </connections>
+            <point key="canvasLocation" x="466" y="298"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="themeStar" width="13" height="12"/>
+        <image name="themeUser" width="13" height="12"/>
+    </resources>
+</document>

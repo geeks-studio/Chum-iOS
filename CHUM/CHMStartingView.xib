@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CHMStartingView">
+            <connections>
+                <outlet property="reloadButton" destination="3qp-f1-ftG" id="pw8-dL-kve"/>
+                <outlet property="view" destination="Xbu-kf-f2B" id="bzJ-oU-oPD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Xbu-kf-f2B">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImg" translatesAutoresizingMaskIntoConstraints="NO" id="X7l-LR-HFr">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qp-f1-ftG">
+                    <rect key="frame" x="161" y="536" width="278" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="278" id="Kfz-CK-HCe"/>
+                        <constraint firstAttribute="height" constant="56" id="Vrh-aM-KxM"/>
+                    </constraints>
+                    <state key="normal" title="Обновить"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3qp-f1-ftG" firstAttribute="centerX" secondItem="Xbu-kf-f2B" secondAttribute="centerX" id="JL1-7y-Rhp"/>
+                <constraint firstAttribute="bottom" secondItem="3qp-f1-ftG" secondAttribute="bottom" constant="8" id="Z1e-bn-phI"/>
+                <constraint firstItem="X7l-LR-HFr" firstAttribute="leading" secondItem="Xbu-kf-f2B" secondAttribute="leading" id="e4V-1n-v7t"/>
+                <constraint firstItem="X7l-LR-HFr" firstAttribute="top" secondItem="Xbu-kf-f2B" secondAttribute="top" id="hqy-kl-KEZ"/>
+                <constraint firstAttribute="bottom" secondItem="X7l-LR-HFr" secondAttribute="bottom" id="nBc-rQ-2ct"/>
+                <constraint firstAttribute="trailing" secondItem="X7l-LR-HFr" secondAttribute="trailing" id="tlX-jR-xGc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="445" y="358"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launchImg" width="640" height="1136"/>
+    </resources>
+</document>
